@@ -87,6 +87,5 @@ if __name__ == '__main__':
         print(colored("[!] Not connected to Tor network", "yellow"))
         sys.exit(1)
 
-#    renew_tor_ip()
     print("[+] Starting scan...")
     scan(target)
